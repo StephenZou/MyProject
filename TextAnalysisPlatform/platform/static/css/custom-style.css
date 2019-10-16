@@ -1,0 +1,11 @@
+.turing-bg {
+    background-image: url(../img/turing.jpg);
+    background-repeat: no-repeat;
+}
+.fengnuo-bg {
+    background-image: url(../img/fengnuo.jpg);
+    background-repeat: no-repeat;
+}
+.comp-item:hover {
+    background-color: lightblue;
+}
