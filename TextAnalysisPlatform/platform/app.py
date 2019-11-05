@@ -46,6 +46,16 @@ def view_analysis():
     return render_template('view-analytics.html')
 
 
+@app.route('/comment_analysis', methods=['GET'])
+def comment_analysis():
+    return render_template('comment-analytics.html')
+
+
+@app.route('/test', methods=['GET'])
+def test():
+    return render_template('test.html')
+
+
 @app.route('/auto_summary', methods=['GET'])
 def auto_summary():
     return render_template('auto-summary.html')
